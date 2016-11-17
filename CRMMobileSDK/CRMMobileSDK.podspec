@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios
   s.ios.deployment_target = "8.0"
-  s.source       = { :git => "https://github.com/DynamicsCRM/crm-mobilesdk-library-for-ios.git" ,
+  s.source       = { :git => "https://github.com/l-barbosa/crm-mobilesdk-library-for-ios.git" ,
                      :tag => "v#{s.version}"}
   s.exclude_files = "**/Build/**/*"
   s.requires_arc = true
