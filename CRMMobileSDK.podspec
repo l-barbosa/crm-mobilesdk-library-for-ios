@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "CRMMobileSDK"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "Microsoft Dynamics CRM Mobile SDK Library for iOS"
   s.description  = <<-DESC
 		   Microsoft Dynamics CRM authentication and data connectivity libraries for iOS apps.
