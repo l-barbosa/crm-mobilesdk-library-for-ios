@@ -1,12 +1,16 @@
 PODS:
-  - ADALiOS (1.2.9)
+  - ADAL (2.2.7):
+    - ADAL/app-lib (= 2.2.7)
+  - ADAL/app-lib (2.2.7):
+    - ADAL/tokencacheheader
+  - ADAL/tokencacheheader (2.2.7)
 
 DEPENDENCIES:
-  - ADALiOS (= 1.2.9)
+  - ADAL (= 2.2.7)
 
 SPEC CHECKSUMS:
-  ADALiOS: fe8e6d04ff9eae098e1b43ecdd0c4cef08d99182
+  ADAL: d9bbf2c3f2ad17754178356937088b682a8a5c42
 
-PODFILE CHECKSUM: af7484b7acb8b86e9e333518a5ebe278966c99c6
+PODFILE CHECKSUM: 688802c2af22347ee56b6bc748ab5fc85343547f
 
 COCOAPODS: 1.1.1
