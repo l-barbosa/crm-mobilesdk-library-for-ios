@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "CRMMobileSDK"
-  s.version      = "1.0.1"
+  s.version      = "1.0.2"
   s.summary      = "Microsoft Dynamics CRM Mobile SDK Library for iOS"
   s.description  = <<-DESC
 		   Microsoft Dynamics CRM authentication and data connectivity libraries for iOS apps.
@@ -24,5 +24,5 @@ Pod::Spec.new do |s|
   s.library = 'xml2'
   s.xcconfig = { 'HEADER_SEARCH_PATHS' => '/usr/include/libxml2' }
 
-  s.dependency 'ADAL', '=2.2.7'
+  s.dependency 'ADAL', '=2.4.1'
 end
